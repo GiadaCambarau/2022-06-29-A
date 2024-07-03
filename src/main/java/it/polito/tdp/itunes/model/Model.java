@@ -47,7 +47,6 @@ public class Model {
 	private void clearGraph() {
 		this.album = new ArrayList<>();
 		this.graph = new SimpleDirectedWeightedGraph<Album, DefaultWeightedEdge>( DefaultWeightedEdge.class);
-	
 	}
 
 	public void creaNodi(int n) {
